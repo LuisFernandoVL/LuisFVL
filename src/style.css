@@ -47,7 +47,7 @@ body{
     word-break: keep-all;
 }
 .minhasinfos ul {
-    padding-inline-start: 4%;
+    padding-inline-start: 1.5vw;
 }
 @media (min-width: 0px) and (max-width: 350px){
     .minhasinfos a{
