@@ -146,16 +146,29 @@ body{
     text-align: center;
     font-size: 0.9em;
 }
+.outrasinfos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 93%;
+    height: auto;
+    margin: 3% 3.5%;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: rgb(100, 0, 140);
+    box-shadow: 0px 2px 15px rgb(100, 0, 140);
+}
 
 h1{
     margin: 2% 0% 0%;
-    font-size: 1.6em;
+    font-size: 1.5em;
     /*font-size: max(26.6px, 2vw);*/
     text-align: center;
 }
 h2{
     margin: 2% 0% 0%;
-    font-size: 1.6em;
+    font-size: 1.5em;
     /*font-size: max(26.6px, 2vw);*/
     text-align: center;
 }
@@ -167,7 +180,7 @@ h3{
 }
 h4{
     margin: 2% 0% 0%;
-    font-size: 1.7em;
+    font-size: 1.5em;
     /*font-size: max(26.6px, 2vw);*/
     text-align: center;
 }
