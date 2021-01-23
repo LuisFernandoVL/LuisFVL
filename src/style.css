@@ -194,7 +194,8 @@ p{
     margin: 0px 7.9%;
     font-size: 1.25em;
     /*font-size: max(20px,1.5vw);*/
-    text-align: justify;
+    text-align: left;
+    word-break:keep-all;
 }
 ul{
     margin: 0px;
