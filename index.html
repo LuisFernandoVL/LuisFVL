@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <div class="wallpaper"></div>
-        <div class="apresentacao">
+        <div id="wallpaper"></div>
+        <div id="apresentacao">
             <div class="minhasinfos">
                 <h1><strong>Luis Fernando Vieira Leal</strong></h1>
                 <p>E-mail: <a href="mailto:luisfernandovl.dev@gmail.com">luisfernandovl.dev@gmail.com</a></p>
@@ -48,7 +48,7 @@
                     São + de 1.000h de aprendizado em 
                     informatica / programação!
                 </p>
-                <p style="font-size: max(1.125em,1.3vw);">Baixe <a href="src/res/documents/grade-curricular-informatica-cti.pdf" download="grade-curricular-informatica-cti.pdf" type="application/pdf">aqui</a> a grade curricular e confira.</p>
+                <p>Baixe <a href="src/res/documents/grade-curricular-informatica-cti.pdf" download="grade-curricular-informatica-cti.pdf" type="application/pdf">aqui</a> a grade curricular e confira.</p>
             </div>
             <div class="minhasinfos">
                 <h2><strong>Objetivos:</strong></h2>
@@ -60,11 +60,11 @@
         </div>
     </header>
 
-    <div class="barratopo">
-        <div class="apresentacao2">
-            <div style="width: auto;"><h1>Luis Fernando Vieira Leal</h1></div>
-            <div style="width: auto;"><p style="margin-left: auto; font-size:max(1.125em,1.5vw);">Email:<a style="text-decoration: none;" href="mailto:luisfernandovl.dev@gmail.com">luisfernandovl.dev@gmail.com</a></p></div>
-            <div style="width: max(300px,23%); display: flex; justify-content: space-between;">
+    <div id="barratopo">
+        <div id="apresentacao2">
+            <div style="width: auto; "><h1>Luis Fernando Vieira Leal</h1></div>
+            <div style="width: auto;"><p style="margin-left: auto; font-size:1.12em;">Email:<a href="mailto:luisfernandovl.dev@gmail.com">luisfernandovl.dev@gmail.com</a></p></div>
+            <div style="width: max(300px,23vw);">
                 <div class="icones">
                     <a href="https://github.com/LuisFernandoVL" target="_blank" rel="external">
                         <picture>
@@ -90,7 +90,7 @@
     </div>
 
     <a href="#">
-        <div class="irtopo">
+        <div id="irtopo">
             <picture>
                 <source media="(min-width:2000px)" srcset="src/res/images/logos/setatop_icon_70.png" type="image/png">
                 <img src="src/res/images/logos/setatop_icon_35.png" alt="Botão para voltar ao topo">
@@ -98,10 +98,10 @@
         </div>
     </a>
 
-    <section class="listadeprojetos" style="margin-top:6%;">
+    <section id="listadeprojetos">
         <h3>Projetos</h3>
         <div class="projeto">
-            <div class="detalhes">
+            <div class="dtltecnologias">
                 <h4>Tecnologias:</h4>
                 <div class="icones">
                     <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="external">
@@ -127,7 +127,7 @@
                     </a>
                 </div>
             </div>
-            <div class="detalhes" style="width: max(540px,44.4%);">
+            <div class="dtldescricao">
                 <h4>ABC Libras</h4>
                 <p>
                     Esse aplicativo foi o trabalho de conclusão de curso (TCC) do meu 
@@ -138,12 +138,12 @@
                     a aprovação nas disciplinas técnicas.
                 </p>
             </div>
-            <div class="detalhes" style="height: max(172px,14.38vw); align-self: center;">
-                <iframe width="100%"  style="border-radius: 6%;" src="https://www.youtube.com/embed/7O_I4S9CSUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="dtlvideo">
+                <iframe width="100%" height="100%" style="border-radius: 6%;" src="https://www.youtube.com/embed/7O_I4S9CSUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div class="projeto">
-            <div class="detalhes">
+            <div class="dtltecnologias">
                 <h4>Tecnologias:</h4>
                 <div class="icones">
                     <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/" target="_blank" rel="external">
@@ -170,7 +170,7 @@
                     
                 </div>
             </div>
-            <div class="detalhes" style="width: max(540px,44.4%);">
+            <div class="dtldescricao">
                 <h4>CTICell</h4>
                 <p>
                     Esse programa registra fabricantes, modelos, características e preços de 
@@ -178,12 +178,12 @@
                 </p>
                 <p> GitHub: <a href="https://github.com/LuisFernandoVL/CTICell" target="_blank" rel="external">github.com/LuisFernandoVL/CTICell</a></p>
             </div>
-            <div class="detalhes" style="height: max(172px,14.38vw); align-self: center;">
+            <div class="dtlvideo">
                 <iframe width="100%" height="100%" style="border-radius: 6%;" src="https://www.youtube.com/embed/oFAdLdrYAmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div class="projeto">
-            <div class="detalhes">
+            <div class="dtltecnologias">
                 <h4>Tecnologias:</h4>
                 <div class="icones">
                     <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/" target="_blank" rel="external">
@@ -209,7 +209,7 @@
                     </a>
                 </div>
             </div>
-            <div class="detalhes" style="width: max(540px,44.4%);">
+            <div class="dtldescricao">
                 <h4>CountCoin</h4>
                 <p style="text-align: center;">[EM DESENVOLVIMENTO]</p>
                 <p>
@@ -220,12 +220,12 @@
                 </p>
                 <p> GitHub: <a href="https://github.com/LuisFernandoVL/CountCoin" target="_blank" rel="external">github.com/LuisFernandoVL/CountCoin</a></p>
             </div>
-            <div class="detalhes" style="height: max(172px,14.38vw); align-self: center;">
+            <div class="dtlvideo">
                 <iframe width="100%" height="100%" style="border-radius: 6%;" src="https://www.youtube.com/embed/PHersDKXIJw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>               
             </div>
         </div>
         <div class="projeto">
-            <div class="detalhes">
+            <div class="dtltecnologias">
                 <h4>Tecnologias:</h4>
                 <div class="icones">
                     <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/" target="_blank" rel="external">
@@ -251,7 +251,7 @@
                     </a>
                 </div>
             </div>
-            <div class="detalhes" style="width: max(540px,44.4%);">
+            <div class="dtldescricao">
                 <h4>EduFocus</h4>
                 <p>
                     Esse programa desktop tem a funcionalidade de registrar 
@@ -260,12 +260,12 @@
                 </p>
                 <p> GitHub: <a href="https://github.com/LuisFernandoVL/EduFocus" target="_blank" rel="external">github.com/LuisFernandoVL/EduFocus</a></p>
             </div>
-            <div class="detalhes" style="height: max(172px,14.38vw); align-self: center;">
+            <div class="dtlvideo">
                 <iframe width="100%" height="100%" style="border-radius: 6%;" src="https://www.youtube.com/embed/AFtFxruIMgM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div class="projeto">
-            <div class="detalhes">
+            <div class="dtltecnologias">
                 <h4>Tecnologias:</h4>
                 <div class="icones">
                     <a href="https://docs.microsoft.com/pt-br/dotnet/csharp/" target="_blank" rel="external">
@@ -284,7 +284,7 @@
                     </a>
                 </div>
             </div>
-            <div class="detalhes" style="width: max(540px,44.4%);">
+            <div class="dtldescricao">
                 <h4>Trunfo Elementar</h4>
                 <p>
                     Jogo de cartas adaptado com as informações de alguns elementos 
@@ -292,7 +292,7 @@
                 </p>
                 <p> GitHub: <a href="https://github.com/LuisFernandoVL/TrunfoElementar" target="_blank" rel="external">github.com/LuisFernandoVL/TrunfoElementar</a></p>
             </div>
-            <div class="detalhes" style="height: max(172px,14.38vw); align-self: center;">
+            <div class="dtlvideo">
                 <iframe  width="100%" height="100%" style="border-radius: 6%;" src="https://www.youtube.com/embed/-q2tAFSuQQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
@@ -304,25 +304,29 @@
                         <picture>
                             <source media="(min-width:2000px)" srcset="src/res/images/logos/html_icon_64.png" type="image/png">
                             <img src="src/res/images/logos/html_icon_64.png" alt="React Native" >
-                        </picture>     
+                        </picture>
+                        <p>HTML5</p>     
                     </a>
                     <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="external">
                         <picture>
                             <source media="(min-width:2000px)" srcset="src/res/images/logos/css_icon_64.png" type="image/png">
                             <img src="src/res/images/logos/css_icon_64.png" alt="JavaScript" >        
                         </picture>
+                        <p>CSS3</p>
                     </a>
                     <a href="https://www.php.net" target="_blank" rel="external">
                         <picture>
                             <source media="(min-width:2000px)" srcset="src/res/images/logos/php_icon_64.png" type="image/png">
                             <img src="src/res/images/logos/php_icon_48.png" alt="React Native" >
                         </picture>
+                        <p>PHP</p>
                     </a>
                     <a href="https://www.java.com/pt-BR/" target="_blank" rel="external">
                         <picture>
                             <source media="(min-width:2000px)" srcset="src/res/images/logos/java_icon_64.png" type="image/png">
                             <img src="src/res/images/logos/java_icon_48.png" alt="React Native" >
-                        </picture>     
+                        </picture>
+                        <p>Java</p>
                     </a>
                 </div>
             </div>
@@ -377,12 +381,11 @@
 
     <footer>
         <div class="rodape">
-            <div class="dtlrodape" style="width: max(540px,44.4%);">
+            <div class="dtlrodape">
                 <h5>Site desenvolvido por:</h5>
-                <p style="text-align: center;"><strong>Luis Fernando Vieira Leal</strong></p>
-                <p style="text-align: center;">Bauru - SP.</p>
-                <p style="text-align: center;">2021</p>
-            
+                <p><strong>Luis Fernando Vieira Leal</strong></p>
+                <p>Bauru - SP.</p>
+                <p>2021</p>
             </div>
         </div>
     </footer>

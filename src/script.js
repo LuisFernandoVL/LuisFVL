@@ -1,9 +1,9 @@
 window.onscroll = function() {myFunction()};
 
-var barratopo = document.getElementsByClassName("barratopo")[0];
+var barratopo = document.getElementById("barratopo");
 var sticky = barratopo.offsetTop;
 
-var irtopo = document.getElementsByClassName("irtopo")[0];
+var irtopo = document.getElementById("irtopo");
 
 
 function myFunction() {
