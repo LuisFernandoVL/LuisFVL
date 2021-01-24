@@ -149,6 +149,14 @@ body{
     justify-content: center;
     text-decoration: none;
 }
+.icones img{
+    width: auto;
+    height: max(32px, 2.416vw);
+}
+.projeto .icones img{
+    width: auto;
+    height: max(48px,3.623vw);
+}
 .icones p{
     text-align: center;
     font-size: 0.9em;
