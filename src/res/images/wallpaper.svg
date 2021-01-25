@@ -64,9 +64,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.0875"
-     inkscape:cx="-1432.7001"
-     inkscape:cy="-277.208"
+     inkscape:zoom="0.35"
+     inkscape:cx="1483.9329"
+     inkscape:cy="158.40509"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -85,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -94,23 +94,21 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g3206"
-       inkscape:export-filename="C:\Users\Luis\Desktop\AT\MeusProjetos\Site-Portfolio\src\res\images\wallpaper-g.png"
+       id="g901"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       transform="translate(413.58362,-2102.1617)">
+       inkscape:export-ydpi="96">
       <path
          id="rect838-4-0-2-8-8"
          style="fill:#0a000e;fill-opacity:1;stroke:#0a000e;stroke-width:0.36176;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m -413.40274,2102.3426 h 676.97158 v 97.0049 h -676.97158 z"
+         d="M 0.18088,0.1809 H 677.15246 V 97.1858 H 0.18088 Z"
          inkscape:export-filename="C:\Users\Luis\Desktop\AT\MeusProjetos\Site-Portfolio\src\res\images\wallpaper-g.png"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" />
       <g
-         id="g3191">
+         id="g886">
         <g
            id="g3150-5-1-6-9"
-           transform="matrix(0.32768902,0,0,0.32768902,-73.510119,1764.2907)"
+           transform="matrix(0.32768902,0,0,0.32768902,340.0735,-337.871)"
            inkscape:export-filename="C:\Users\Luis\Documents\Luis\Coisas da área de trabalho\Portfólio\src\res\images\logos\fav_icon_1024.png"
            inkscape:export-xdpi="96"
            inkscape:export-ydpi="96">
@@ -124,8 +122,7 @@
              sodipodi:cy="544.50342"
              sodipodi:rx="36.51675"
              sodipodi:ry="36.516777"
-             transform="matrix(3.0516801,0,0,3.0516779,370.38273,-482.01152)"
-             d="m -86.260181,544.50342 a 36.51675,36.516777 0 0 1 -36.516749,36.51678 36.51675,36.516777 0 0 1 -36.51675,-36.51678 36.51675,36.516777 0 0 1 36.51675,-36.51678 36.51675,36.516777 0 0 1 36.516749,36.51678 z" />
+             transform="matrix(3.0516801,0,0,3.0516779,370.38273,-482.01152)" />
           <ellipse
              style="fill:#64008c;fill-opacity:1;stroke:#64008c;stroke-width:24.0299;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="path2628-4-5-2-7-0-3-6-3"
@@ -136,44 +133,44 @@
         </g>
         <g
            id="g2721"
-           transform="matrix(0.38888898,0,0,0.38888898,-47.037954,1296.5452)"
-           style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+           transform="matrix(0.09838411,0,0,0.09838411,345.71971,-168.81232)"
+           style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
           <g
              id="g2670"
              transform="translate(49.53309,-68.245024)"
-             style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+             style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
             <path
-               style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                d="m -132.29166,2227.7916 v 21.1667 h 15.87499"
                id="path2651" />
             <path
-               style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
                d="m -124.88332,2260.0709 v -21.1667 h 15.8749"
                id="path2651-4" />
           </g>
           <ellipse
-             style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="path2628-4-5-2-7-0-3-6-3-9"
              cx="-82.812309"
              cy="2160.4348"
              rx="2.0565374"
              ry="2.0565386" />
           <ellipse
-             style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="path2628-4-5-2-7-0-3-6-3-9-7"
              cx="-67.576172"
              cy="2180.605"
              rx="2.0565374"
              ry="2.0565386" />
           <ellipse
-             style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="path2628-4-5-2-7-0-3-6-3-9-72"
              cx="-60.56535"
              cy="2170.5874"
              rx="2.0565374"
              ry="2.0565386" />
           <ellipse
-             style="fill:none;fill-opacity:1;stroke:#0b0010;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             style="fill:none;fill-opacity:1;stroke:#0b000f;stroke-width:2.97496;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              id="path2628-4-5-2-7-0-3-6-3-9-8"
              cx="-75.137314"
              cy="2190.9968"
