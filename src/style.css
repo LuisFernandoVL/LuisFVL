@@ -66,11 +66,12 @@ body{
     bottom:18%;
     position: fixed;
     margin-left: 0.3%;
-    width: 35px;
+    width: max(35px, 2.642vw);
+    height: auto;
 }
 .irtopo img{
-    width: 35px;
-    height: max(35px);
+    width: 100%;
+    height: auto;
 }
 @keyframes indicacao{
     to{
