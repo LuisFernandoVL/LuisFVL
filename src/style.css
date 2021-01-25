@@ -69,8 +69,8 @@ body{
     width: 35px;
 }
 .irtopo img{
-    width: auto;
-    height: max(35px, 2.642vh);
+    width: 35px;
+    height: max(35px);
 }
 @keyframes indicacao{
     to{
