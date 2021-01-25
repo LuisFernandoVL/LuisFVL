@@ -132,6 +132,8 @@ body{
     height: max(172px,27.4vh);
     margin: 1% 0%;
     align-self: baseline;
+    border: 1px solid rgb(100,0,140);
+    border-radius: 6%;
 }
 /*Rodapé*/
 .rodape{
