@@ -66,6 +66,7 @@ body{
     bottom:18%;
     position: fixed;
     margin-left: 0.3%;
+    width: 35px;
 }
 .irtopo img{
     width: auto;
