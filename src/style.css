@@ -8,6 +8,7 @@ body{
     font-size: max(16px,1.2vw);
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Cabeçalho -> informações pessoais */
 #wallpaper{
     width: 100%;
     height: 368px;
@@ -29,7 +30,7 @@ body{
     border-style:solid;
     border-width: 1px;
     border-radius: 15px;
-    border-color: rgb(100, 0, 140);
+    border-color: rgb(130, 0, 182);
     box-shadow: 0px 2px 15px rgb(100, 0, 140);
 }
 .minhasinfos a{
@@ -40,10 +41,11 @@ body{
         word-break: break-all;
     }
 }
+/* Barra superior -> Nome e redes */
 #barratopo{
     padding-top: 100%;
     color: rgb(220, 220, 220);
-    box-shadow: 0px 20px 15px rgb(10, 0, 14);
+    box-shadow: 0px 30px 25px rgb(10, 0, 14);
 }
 #apresentacao2{
     display: flex;
@@ -57,6 +59,24 @@ body{
     padding-bottom: 0.5%;
     background: rgb(100, 0, 140);
 }
+/* Botão que encaminha para o topo da página*/
+.irtopo{
+    animation: indicacao 1s ease-in-out alternate infinite;
+    display: none;
+    bottom:18%;
+    position: fixed;
+    margin-left: 0.3%;
+}
+.irtopo img{
+    width: auto;
+    height: max(35px, 2.642vw);
+}
+@keyframes indicacao{
+    to{
+        transform: translateY(5px);
+    }
+}
+/*Projetos -> O que foi usado, descrição e vídeo*/
 #listadeprojetos{
     margin-top: 6%;
 }
@@ -79,7 +99,7 @@ body{
     border-style:solid;
     border-width: 1px;
     border-radius: 15px;
-    border-color: rgb(100, 0, 140);
+    border-color: rgb(130, 0, 182);
     box-shadow: 0px 2px 15px rgb(100, 0, 140);
 }
 .detalhes{
@@ -111,6 +131,7 @@ body{
     margin: 1% 0%;
     align-self: baseline;
 }
+/*Rodapé*/
 .rodape{
     display: flex;
     flex-wrap: wrap;
@@ -128,14 +149,7 @@ body{
     font-size: 0.9em;
     text-align: center;
 }
-#irtopo{
-    display: none;
-    bottom:18%;
-    position: fixed;
-    width: auto;
-    border-radius: 6%;
-    background-color: rgb(100, 0, 146);
-}
+/* Configurações dos ícones */
 .icones{
     display: flex;
     flex-wrap: wrap;
@@ -161,6 +175,7 @@ body{
     text-align: center;
     font-size: 0.9em;
 }
+/* Configurações gerais das letras */
 h1{
     margin: 2% 0% 0%;
     font-size: 1.5em;

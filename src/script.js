@@ -3,7 +3,7 @@ window.onscroll = function() {myFunction()};
 var barratopo = document.getElementById("barratopo");
 var sticky = barratopo.offsetTop;
 
-var irtopo = document.getElementById("irtopo");
+var irtopo = document.getElementsByClassName("irtopo")[0];
 
 
 function myFunction() {
